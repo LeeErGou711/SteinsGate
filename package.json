@@ -2,7 +2,7 @@
   "name": "steins-gate-frontend",
   "version": "1.0.0",
   "description": "Steins;Gate 周边展示网站",
-  "homepage": "/SteinsGate",
+  "homepage": "https://leeergou711.github.io/SteinsGate",
   "scripts": {
     "start": "react-scripts start",
     "build": "npm run generate-files && react-scripts build",

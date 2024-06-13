@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // 从 JSON 文件获取产品数据
-    fetch("/SteinsGate/files.json")
+    fetch("https://leeergou711.github.io/SteinsGate/files.json")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
