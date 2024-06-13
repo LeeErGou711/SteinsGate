@@ -46,9 +46,9 @@ const App = () => {
     }));
   };
 
-  const handleOpenFile = (fileName, parent) => {
-    const filePath = `https://github.com/LeeErGou711/SteinsGate/blob/main/src/files/${parent}/${fileName}`;
-    window.open(filePath, "_blank");
+  const handleOpenFile = (filePath) => {
+    const fullPath = `https://github.com/LeeErGou711/SteinsGate/blob/main/src/files/${filePath}`;
+    window.open(fullPath, "_blank");
   };
 
   return (
@@ -102,7 +102,7 @@ const App = () => {
                             ) : (
                               <div
                                 className="file-name"
-                                onClick={() => handleOpenFile(child.name, product.name)}
+                                onClick={() => handleOpenFile(child.path)}
                               >
                                 <h4>{child.name}</h4>
                               </div>
@@ -115,7 +115,7 @@ const App = () => {
               ) : (
                 <div
                   className="file-name"
-                  onClick={() => handleOpenFile(product.name, product.parent)}
+                  onClick={() => handleOpenFile(product.path)}
                 >
                   <h3>{product.name}</h3>
                 </div>
