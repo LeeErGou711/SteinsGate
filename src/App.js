@@ -44,7 +44,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Steins;Gate 周边</h1>
+        <h1>未来ガジェット研究所</h1>
         <div className="search-container">
           <input
             type="text"
