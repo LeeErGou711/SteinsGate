@@ -8,7 +8,7 @@ const App = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   // 设置搜索关键词的最大长度
-  const MAX_SEARCH_LENGTH = 50; // 你可以根据需要调整这个值
+  const MAX_SEARCH_LENGTH = 500; // 你可以根据需要调整这个值
 
   useEffect(() => {
     // 模拟 API 调用获取产品数据
