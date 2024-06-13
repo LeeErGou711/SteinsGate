@@ -49,7 +49,7 @@ body::before {
   margin-right: 1rem;
   width: 60%;
   max-width: 300px;
-  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  background-color: rgba(246,246,245, 0.8); /* 半透明背景 */
   color: rgba(0, 0, 0, 0.8); /* 半透明文本 */
   outline: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@ body::before {
   padding: 0.5rem;
   border: 2px solid rgba(206, 212, 218, 0.5); /* 半透明边框 */
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  background-color: rgba(246,246,245, 0.8); /* 半透明背景 */
   color: rgba(0, 0, 0, 0.8); /* 半透明文本 */
   outline: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
