@@ -2,7 +2,12 @@
   "name": "steins-gate-frontend",
   "version": "1.0.0",
   "description": "Steins;Gate 周边展示网站",
-  "keywords": ["Steins;Gate", "周边", "展示", "React"],
+  "keywords": [
+    "Steins;Gate",
+    "周边",
+    "展示",
+    "React"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "^18.0.0",
@@ -17,11 +22,16 @@
     "loader-utils": "^3.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "proxy": "http://localhost:5000"
 }
