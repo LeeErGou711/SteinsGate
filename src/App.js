@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // 从 JSON 文件获取产品数据
-    fetch("/files.json")
+    fetch("/SteinsGate/files.json")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
@@ -48,9 +48,9 @@ const App = () => {
     }));
   };
 
-  const handleOpenFile = (fileName) => {
-    const filePath = `/files/${fileName}`;
-    window.open(filePath, "_blank");
+  const handleOpenFile = (filePath) => {
+    const fullPath = `/SteinsGate/files/${filePath}`;
+    window.open(fullPath, "_blank");
   };
 
   return (
@@ -104,7 +104,7 @@ const App = () => {
                             ) : (
                               <div
                                 className="file-name"
-                                onClick={() => handleOpenFile(child.name)}
+                                onClick={() => handleOpenFile(child.path)}
                               >
                                 <h4>{child.name}</h4>
                               </div>
@@ -117,7 +117,7 @@ const App = () => {
               ) : (
                 <div
                   className="file-name"
-                  onClick={() => handleOpenFile(product.name)}
+                  onClick={() => handleOpenFile(product.path)}
                 >
                   <h3>{product.name}</h3>
                 </div>

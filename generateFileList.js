@@ -1,27 +1,29 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'src/files');
-const outputPath = path.join(__dirname, 'public', 'files.json');
+const directoryPath = path.join(__dirname, 'public/files');
+const outputPath = path.join(__dirname, 'public/files.json');
 
-function getFiles(dirPath, parent = null) {
+function getFiles(dirPath, parent = '') {
   const files = fs.readdirSync(dirPath);
 
   return files.flatMap((file) => {
     const fullPath = path.join(dirPath, file);
+    const relativePath = path.join(parent, file);
     const isDirectory = fs.lstatSync(fullPath).isDirectory();
 
     const fileInfo = {
-      id: fullPath,
+      id: relativePath,
       name: file,
       description: 'Description for ' + file,
       image: '/path/to/default/image.png',
       category: isDirectory ? 'folder' : 'file',
-      parent: parent,
+      path: relativePath,
+      parent: parent === '' ? null : parent,
     };
 
     if (isDirectory) {
-      return [fileInfo, ...getFiles(fullPath, file)];
+      return [fileInfo, ...getFiles(fullPath, relativePath)];
     } else {
       return [fileInfo];
     }
