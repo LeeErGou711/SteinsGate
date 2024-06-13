@@ -4,7 +4,7 @@ import "./styles.css";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchCategory, setSearchCategory] = useState("all");
+  const [searchCategory, setSearchCategory] = useState("folder");
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [openedFolders, setOpenedFolders] = useState({});
 
@@ -14,29 +14,25 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        setFilteredProducts(data); // 初始化过滤后的产品
+        setFilteredProducts(data.filter(product => product.category === "folder")); // 只初始化文件夹类别的产品
       })
       .catch((err) => console.error(err));
   }, []);
 
   useEffect(() => {
-    // 过滤产品列表
+    // 过滤产品列表，只显示文件夹
     const lowercasedFilter = searchTerm.toLowerCase();
     const filtered = products.filter((product) => {
-      if (searchCategory === "all" || searchCategory === product.category) {
+      if (product.category === "folder") {
         return product.name.toLowerCase().includes(lowercasedFilter);
       }
       return false;
     });
     setFilteredProducts(filtered);
-  }, [searchTerm, searchCategory, products]);
+  }, [searchTerm, products]);
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
-  };
-
-  const handleCategoryChange = (event) => {
-    setSearchCategory(event.target.value);
   };
 
   const handleToggleFolder = (folderName) => {
@@ -63,61 +59,41 @@ const App = () => {
             onChange={handleSearch}
             className="search-input"
           />
-          <select
-            value={searchCategory}
-            onChange={handleCategoryChange}
-            className="search-select"
-          >
-            <option value="all">全部</option>
-            <option value="folder">文件夹</option>
-            <option value="file">文件</option>
-          </select>
         </div>
       </header>
       <div className="product-list">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
             <div key={product.id} className="product-card">
-              {product.category === "folder" ? (
-                <>
-                  <div
-                    className="folder-name"
-                    onClick={() => handleToggleFolder(product.name)}
-                  >
-                    <h3>{product.name}</h3>
-                  </div>
-                  {openedFolders[product.name] && (
-                    <div className="folder-contents">
-                      {products
-                        .filter((item) => item.parent === product.name)
-                        .map((child) => (
-                          <div key={child.id} className="product-card child-card">
-                            {child.category === "folder" ? (
-                              <div
-                                className="folder-name"
-                                onClick={() => handleToggleFolder(child.name)}
-                              >
-                                <h4>{child.name}</h4>
-                              </div>
-                            ) : (
-                              <div
-                                className="file-name"
-                                onClick={() => handleOpenFile(child.path)}
-                              >
-                                <h4>{child.name}</h4>
-                              </div>
-                            )}
+              <div
+                className="folder-name"
+                onClick={() => handleToggleFolder(product.name)}
+              >
+                <h3>{product.name}</h3>
+              </div>
+              {openedFolders[product.name] && (
+                <div className="folder-contents">
+                  {products
+                    .filter((item) => item.parent === product.name)
+                    .map((child) => (
+                      <div key={child.id} className="product-card child-card">
+                        {child.category === "folder" ? (
+                          <div
+                            className="folder-name"
+                            onClick={() => handleToggleFolder(child.name)}
+                          >
+                            <h4>{child.name}</h4>
                           </div>
-                        ))}
-                    </div>
-                  )}
-                </>
-              ) : (
-                <div
-                  className="file-name"
-                  onClick={() => handleOpenFile(product.path)}
-                >
-                  <h3>{product.name}</h3>
+                        ) : (
+                          <div
+                            className="file-name"
+                            onClick={() => handleOpenFile(child.path)}
+                          >
+                            <h4>{child.name}</h4>
+                          </div>
+                        )}
+                      </div>
+                    ))}
                 </div>
               )}
             </div>

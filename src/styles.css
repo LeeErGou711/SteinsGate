@@ -1,8 +1,10 @@
+/* 基础样式 */
 body {
   font-family: "SimSun", "宋体", serif;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: 1rem; /* 基础字体大小 */
 }
 
 body::before {
@@ -22,31 +24,29 @@ body::before {
 }
 
 
-
-
 .App {
   text-align: center;
 }
 
 .App-header {
-  padding: 20px;
+  padding: 2rem;
   color: rgba(255, 255, 255, 0.8); /* 半透明白色文本 */
   border-radius: 10px;
-  margin: 20px;
+  margin: 2rem;
 }
 
 .search-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .search-input {
-  padding: 10px;
+  padding: 0.5rem;
   border: 2px solid rgba(206, 212, 218, 0.5); /* 半透明边框 */
   border-radius: 4px;
-  margin-right: 10px;
+  margin-right: 1rem;
   width: 60%;
   max-width: 300px;
   background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
@@ -60,7 +60,7 @@ body::before {
 }
 
 .search-select {
-  padding: 10px;
+  padding: 0.5rem;
   border: 2px solid rgba(206, 212, 218, 0.5); /* 半透明边框 */
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
@@ -72,7 +72,7 @@ body::before {
 .product-list {
   max-height: 80vh;
   overflow-y: auto;
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,11 +82,10 @@ body::before {
 .product-card, .child-card {
   width: 100%;
   max-width: 600px;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 1rem;
+  margin: 1rem 0;
   border: 1px solid rgba(0, 0, 0, 0.1); /* 半透明边框 */
   border-radius: 10px;
-  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
@@ -104,6 +103,31 @@ body::before {
 
 .folder-name h3, .file-name h3, .folder-name h4, .file-name h4 {
   margin: 5px 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
+}
+
+/* 媒体查询 */
+@media (max-width: 768px) {
+  .search-input, .search-select {
+    width: 80%;
+    max-width: none;
+  }
+  .App-header {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .product-list {
+    padding: 1rem;
+  }
+  .product-card, .child-card {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .search-input, .search-select {
+    width: 50%;
+  }
 }
