@@ -8,16 +8,21 @@ body {
 body::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0vh;  /* 元素顶部距离视口高度的10% */
+  left: 0vw; /* 元素左边距离视口宽度的10% */
   width: 100%;
-  height: 100%;
+  height: 150%;
   background: url("background.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  opacity: 0.3; /* 背景图片的半透明效果 */
+  background-size: 100% auto; /* 拉伸背景图像的宽度到120% */
+  opacity: 0.45; /* 背景图片的半透明效果 */
   z-index: -1;
   pointer-events: none;
+  margin-top: +0px; /* 向上移动背景图像 50px */
+  transform: translateY(-80px);
 }
+
+
+
 
 .App {
   text-align: center;
