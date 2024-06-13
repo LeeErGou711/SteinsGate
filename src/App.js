@@ -47,7 +47,7 @@ const App = () => {
   };
 
   const handleOpenFile = (fileName) => {
-    const filePath = `/SteinsGate/files/${fileName}`;
+    const filePath = `/SteinsGate/blob/main/src/files/${fileName}`;
     window.open(filePath, "_blank");
   };
 
