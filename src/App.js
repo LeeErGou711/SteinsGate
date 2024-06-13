@@ -6,13 +6,11 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchCategory, setSearchCategory] = useState("all");
   const [filteredProducts, setFilteredProducts] = useState([]);
-
-  // 设置搜索关键词的最大长度
-  const MAX_SEARCH_LENGTH = 500; // 你可以根据需要调整这个值
+  const [openedFolders, setOpenedFolders] = useState({});
 
   useEffect(() => {
-    // 模拟 API 调用获取产品数据
-    fetch("/api/products")
+    // 从 JSON 文件获取产品数据
+    fetch("/files.json")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
@@ -27,8 +25,7 @@ const App = () => {
     const filtered = products.filter((product) => {
       if (searchCategory === "all" || searchCategory === product.category) {
         return (
-          product.name.toLowerCase().includes(lowercasedFilter) ||
-          product.description.toLowerCase().includes(lowercasedFilter)
+          product.name.toLowerCase().includes(lowercasedFilter)
         );
       }
       return false;
@@ -37,14 +34,23 @@ const App = () => {
   }, [searchTerm, searchCategory, products]);
 
   const handleSearch = (event) => {
-    const input = event.target.value;
-    if (input.length <= MAX_SEARCH_LENGTH) {
-      setSearchTerm(input);
-    }
+    setSearchTerm(event.target.value);
   };
 
   const handleCategoryChange = (event) => {
     setSearchCategory(event.target.value);
+  };
+
+  const handleToggleFolder = (folderName) => {
+    setOpenedFolders((prevState) => ({
+      ...prevState,
+      [folderName]: !prevState[folderName],
+    }));
+  };
+
+  const handleOpenFile = (fileName) => {
+    const filePath = `/files/${fileName}`;
+    window.open(filePath, "_blank");
   };
 
   return (
@@ -74,13 +80,48 @@ const App = () => {
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
             <div key={product.id} className="product-card">
-              <img
-                src={product.image}
-                alt={product.name}
-                className="product-image"
-              />
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
+              {product.category === "folder" ? (
+                <>
+                  <div
+                    className="folder-name"
+                    onClick={() => handleToggleFolder(product.name)}
+                  >
+                    <h3>{product.name}</h3>
+                  </div>
+                  {openedFolders[product.name] && (
+                    <div className="folder-contents">
+                      {products
+                        .filter((item) => item.parent === product.name)
+                        .map((child) => (
+                          <div key={child.id} className="product-card child-card">
+                            {child.category === "folder" ? (
+                              <div
+                                className="folder-name"
+                                onClick={() => handleToggleFolder(child.name)}
+                              >
+                                <h4>{child.name}</h4>
+                              </div>
+                            ) : (
+                              <div
+                                className="file-name"
+                                onClick={() => handleOpenFile(child.name)}
+                              >
+                                <h4>{child.name}</h4>
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div
+                  className="file-name"
+                  onClick={() => handleOpenFile(product.name)}
+                >
+                  <h3>{product.name}</h3>
+                </div>
+              )}
             </div>
           ))
         ) : (
