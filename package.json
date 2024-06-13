@@ -2,14 +2,17 @@
   "name": "steins-gate-frontend",
   "version": "1.0.0",
   "description": "Steins;Gate 周边展示网站",
-  "keywords": [
-    "Steins;Gate",
-    "周边",
-    "展示",
-    "React"
-  ],
-  "main": "src/index.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
+    "nth-check": "^2.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.8.0",
@@ -22,20 +25,16 @@
     "loader-utils": "^3.2.1",
     "typescript": "^4.4.4"
   },
-  "scripts": {
-    "start": "DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "proxy": "http://localhost:5000",
-  "homepage": "https://github.com/LeeErGou711/SteinsGate"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
