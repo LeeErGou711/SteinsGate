@@ -1,8 +1,19 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'public/files');
-const outputPath = path.join(__dirname, 'public/files.json');
+const sourceDirectoryPath = path.join(__dirname, 'src/files');
+const outputDirectoryPath = path.join(__dirname, 'public');
+const outputPath = path.join(outputDirectoryPath, 'files.json');
+
+// 确保目标目录存在
+if (!fs.existsSync(sourceDirectoryPath)) {
+  console.error(`Source directory ${sourceDirectoryPath} does not exist.`);
+  process.exit(1);
+}
+
+if (!fs.existsSync(outputDirectoryPath)) {
+  fs.mkdirSync(outputDirectoryPath);
+}
 
 function getFiles(dirPath, parent = '') {
   const files = fs.readdirSync(dirPath);
@@ -30,7 +41,7 @@ function getFiles(dirPath, parent = '') {
   });
 }
 
-const fileList = getFiles(directoryPath);
+const fileList = getFiles(sourceDirectoryPath);
 
 fs.writeFile(outputPath, JSON.stringify(fileList, null, 2), (err) => {
   if (err) {
