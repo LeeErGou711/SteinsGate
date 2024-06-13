@@ -1,0 +1,99 @@
+body {
+  font-family: "SimSun", "宋体", serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/files/background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.3; /* 背景图片的半透明效果 */
+  z-index: -1;
+  pointer-events: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.8); /* 半透明背景色 */
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.8); /* 半透明白色文本 */
+  border-radius: 10px;
+  margin: 20px;
+  backdrop-filter: blur(10px); /* 背景模糊效果 */
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid rgba(206, 212, 218, 0.5); /* 半透明边框 */
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 60%;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  color: rgba(0, 0, 0, 0.8); /* 半透明文本 */
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.5); /* 更柔和的半透明文本 */
+}
+
+.search-select {
+  padding: 10px;
+  border: 2px solid rgba(206, 212, 218, 0.5); /* 半透明边框 */
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  color: rgba(0, 0, 0, 0.8); /* 半透明文本 */
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* 半透明边框 */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* 背景模糊效果 */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 半透明阴影 */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1); /* 半透明背景 */
+}
