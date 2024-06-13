@@ -27,6 +27,150 @@
     "parent": "剧场版命运石之门负荷领域的既视感"
   },
   {
+    "id": "命运石之门-亡环的逆谋",
+    "name": "命运石之门-亡环的逆谋",
+    "description": "Description for 命运石之门-亡环的逆谋",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门-亡环的逆谋",
+    "parent": null
+  },
+  {
+    "id": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "parent": "命运石之门-亡环的逆谋"
+  },
+  {
+    "id": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "parent": "命运石之门-亡环的逆谋"
+  },
+  {
+    "id": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "parent": "命运石之门-亡环的逆谋"
+  },
+  {
+    "id": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-亡环的逆谋\\[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "parent": "命运石之门-亡环的逆谋"
+  },
+  {
+    "id": "命运石之门-史上最强的轻度狂热[停更]",
+    "name": "命运石之门-史上最强的轻度狂热[停更]",
+    "description": "Description for 命运石之门-史上最强的轻度狂热[停更]",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门-史上最强的轻度狂热[停更]",
+    "parent": null
+  },
+  {
+    "id": "命运石之门-史上最强的轻度狂热[停更]\\[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-史上最强的轻度狂热[停更]\\[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "parent": "命运石之门-史上最强的轻度狂热[停更]"
+  },
+  {
+    "id": "命运石之门-史上最强的轻度狂热[停更]\\[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门-史上最强的轻度狂热[停更]\\[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "parent": "命运石之门-史上最强的轻度狂热[停更]"
+  },
+  {
+    "id": "命运石之门DROPS",
+    "name": "命运石之门DROPS",
+    "description": "Description for 命运石之门DROPS",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门DROPS",
+    "parent": null
+  },
+  {
+    "id": "命运石之门DROPS\\[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门DROPS\\[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "parent": "命运石之门DROPS"
+  },
+  {
+    "id": "命运石之门[停更]",
+    "name": "命运石之门[停更]",
+    "description": "Description for 命运石之门[停更]",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门[停更]",
+    "parent": null
+  },
+  {
+    "id": "命运石之门[停更]\\[Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门[停更]\\[Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "parent": "命运石之门[停更]"
+  },
+  {
+    "id": "命运石之门：世界线变动率x.091015％",
+    "name": "命运石之门：世界线变动率x.091015％",
+    "description": "Description for 命运石之门：世界线变动率x.091015％",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门：世界线变动率x.091015％",
+    "parent": null
+  },
+  {
+    "id": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "parent": "命运石之门：世界线变动率x.091015％"
+  },
+  {
+    "id": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "parent": "命运石之门：世界线变动率x.091015％"
+  },
+  {
+    "id": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门：世界线变动率x.091015％\\[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "parent": "命运石之门：世界线变动率x.091015％"
+  },
+  {
     "id": "命运石之门：变移空间的八重奏",
     "name": "命运石之门：变移空间的八重奏",
     "description": "Description for 命运石之门：变移空间的八重奏",
@@ -88,6 +232,42 @@
     "category": "file",
     "path": "命运石之门：恩仇的布朗运动\\[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
     "parent": "命运石之门：恩仇的布朗运动"
+  },
+  {
+    "id": "命运石之门：无限远点的弧光灯",
+    "name": "命运石之门：无限远点的弧光灯",
+    "description": "Description for 命运石之门：无限远点的弧光灯",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门：无限远点的弧光灯",
+    "parent": null
+  },
+  {
+    "id": "命运石之门：无限远点的弧光灯\\[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门：无限远点的弧光灯\\[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "parent": "命运石之门：无限远点的弧光灯"
+  },
+  {
+    "id": "命运石之门：星尘的二连音",
+    "name": "命运石之门：星尘的二连音",
+    "description": "Description for 命运石之门：星尘的二连音",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "命运石之门：星尘的二连音",
+    "parent": null
+  },
+  {
+    "id": "命运石之门：星尘的二连音\\[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "name": "[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "description": "Description for [Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "命运石之门：星尘的二连音\\[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "parent": "命运石之门：星尘的二连音"
   },
   {
     "id": "命运石之门：比翼恋理的爱人",
