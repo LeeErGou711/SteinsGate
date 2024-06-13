@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SteinsGate/static/css/main.2140d1d2.css",
+    "main.css": "/SteinsGate/static/css/main.668d6a13.css",
     "main.js": "/SteinsGate/static/js/main.26cb4ee4.js",
     "static/media/background.jpeg": "/SteinsGate/static/media/background.92b034f097de9191345d.jpeg",
     "index.html": "/SteinsGate/index.html",
-    "main.2140d1d2.css.map": "/SteinsGate/static/css/main.2140d1d2.css.map",
+    "main.668d6a13.css.map": "/SteinsGate/static/css/main.668d6a13.css.map",
     "main.26cb4ee4.js.map": "/SteinsGate/static/js/main.26cb4ee4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2140d1d2.css",
+    "static/css/main.668d6a13.css",
     "static/js/main.26cb4ee4.js"
   ]
 }
