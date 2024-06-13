@@ -2,15 +2,14 @@
   "name": "steins-gate-frontend",
   "version": "1.0.0",
   "description": "Steins;Gate 周边展示网站",
-  "homepage": ".",
+  "homepage": "https://leeergou711.github.io/SteinsGate",
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run generate-files && react-scripts build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "generate-files": "node generateFileList.js"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "nth-check": "^2.1.1",
@@ -39,4 +38,3 @@
     ]
   }
 }
-
