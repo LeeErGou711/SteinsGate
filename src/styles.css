@@ -23,13 +23,14 @@ body::before {
   text-align: center;
 }
 
+
 .App-header {
-  background-color: rgba(40, 44, 52, 0.8); /* 半透明背景色 */
+  /* background-color: rgba(40, 44, 52, 0.8);  半透明背景色 */
   padding: 20px;
   color: rgba(255, 255, 255, 0.8); /* 半透明白色文本 */
   border-radius: 10px;
   margin: 20px;
-  backdrop-filter: blur(10px); /* 背景模糊效果 */
+  /* backdrop-filter: blur(10px); 背景模糊效果 */
 }
 
 .search-container {
