@@ -7,6 +7,9 @@ const App = () => {
   const [searchCategory, setSearchCategory] = useState("all");
   const [filteredProducts, setFilteredProducts] = useState([]);
 
+  // 设置搜索关键词的最大长度
+  const MAX_SEARCH_LENGTH = 50; // 你可以根据需要调整这个值
+
   useEffect(() => {
     // 模拟 API 调用获取产品数据
     fetch("/api/products")
@@ -34,7 +37,10 @@ const App = () => {
   }, [searchTerm, searchCategory, products]);
 
   const handleSearch = (event) => {
-    setSearchTerm(event.target.value);
+    const input = event.target.value;
+    if (input.length <= MAX_SEARCH_LENGTH) {
+      setSearchTerm(input);
+    }
   };
 
   const handleCategoryChange = (event) => {
