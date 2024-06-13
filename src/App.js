@@ -24,9 +24,7 @@ const App = () => {
     const lowercasedFilter = searchTerm.toLowerCase();
     const filtered = products.filter((product) => {
       if (searchCategory === "all" || searchCategory === product.category) {
-        return (
-          product.name.toLowerCase().includes(lowercasedFilter)
-        );
+        return product.name.toLowerCase().includes(lowercasedFilter);
       }
       return false;
     });
@@ -48,9 +46,9 @@ const App = () => {
     }));
   };
 
-  const handleOpenFile = (filePath) => {
-    const fullPath = `/SteinsGate/files/${filePath}`;
-    window.open(fullPath, "_blank");
+  const handleOpenFile = (fileName) => {
+    const filePath = `/SteinsGate/files/${fileName}`;
+    window.open(filePath, "_blank");
   };
 
   return (
@@ -104,7 +102,7 @@ const App = () => {
                             ) : (
                               <div
                                 className="file-name"
-                                onClick={() => handleOpenFile(child.path)}
+                                onClick={() => handleOpenFile(child.name)}
                               >
                                 <h4>{child.name}</h4>
                               </div>
@@ -117,7 +115,7 @@ const App = () => {
               ) : (
                 <div
                   className="file-name"
-                  onClick={() => handleOpenFile(product.path)}
+                  onClick={() => handleOpenFile(product.name)}
                 >
                   <h3>{product.name}</h3>
                 </div>
