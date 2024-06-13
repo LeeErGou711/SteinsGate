@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LeeErGou711/SteinsGate/static/css/main.3d71f829.css",
+    "main.js": "/LeeErGou711/SteinsGate/static/js/main.662089f6.js",
+    "static/media/background.jpeg": "/LeeErGou711/SteinsGate/static/media/background.92b034f097de9191345d.jpeg",
+    "index.html": "/LeeErGou711/SteinsGate/index.html",
+    "main.3d71f829.css.map": "/LeeErGou711/SteinsGate/static/css/main.3d71f829.css.map",
+    "main.662089f6.js.map": "/LeeErGou711/SteinsGate/static/js/main.662089f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d71f829.css",
+    "static/js/main.662089f6.js"
+  ]
+}
