@@ -8,10 +8,12 @@ const App = () => {
   const [openedFolders, setOpenedFolders] = useState({});
 
   useEffect(() => {
+    // 从 JSON 文件获取产品数据
     fetch("https://leeergou711.github.io/SteinsGate/files.json")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
+        // 初始化文件夹展开状态，所有文件夹默认关闭
         const initialOpenedFolders = data
           .filter(product => product.category === "folder")
           .reduce((acc, product) => {
@@ -19,12 +21,13 @@ const App = () => {
             return acc;
           }, {});
         setOpenedFolders(initialOpenedFolders);
-        setFilteredProducts(data.filter(product => product.category === "folder" && !product.parent));
+        setFilteredProducts(data.filter(product => product.category === "folder" && !product.parent)); // 只初始化顶层文件夹
       })
       .catch((err) => console.error(err));
   }, []);
 
   useEffect(() => {
+    // 过滤产品列表，只显示顶层文件夹
     const lowercasedFilter = searchTerm.toLowerCase();
     const filtered = products.filter((product) => {
       if (product.category === "folder" && !product.parent) {
@@ -46,18 +49,13 @@ const App = () => {
     }));
   };
 
-  const handleOpenFile = (filePath, fileName) => {
+  const handleOpenFile = (filePath) => {
     const extension = filePath.split('.').pop();
-    if (extension === 'mp3') {
-      const playerUrl = `/player.html?file=${encodeURIComponent(filePath)}&name=${encodeURIComponent(fileName)}`;
-      window.open(playerUrl, "_blank");
-    } else {
-      let fullPath = `https://github.com/LeeErGou711/SteinsGate/raw/main/src/files/${filePath}`;
-      if (extension === 'epub') {
-        fullPath = `https://raw.githubusercontent.com/LeeErGou711/SteinsGate/main/src/files/${filePath}`;
-      }
-      window.open(fullPath, "_blank");
+    let fullPath = `https://github.com/LeeErGou711/SteinsGate/raw/main/src/files/${filePath}`;
+    if (extension === 'epub') {
+      fullPath = `https://raw.githubusercontent.com/LeeErGou711/SteinsGate/main/src/files/${filePath}`;
     }
+    window.open(fullPath, "_blank");
   };
 
   const renderFolderContents = (parentPath) => {
@@ -82,7 +80,7 @@ const App = () => {
           ) : (
             <div
               className="file-name"
-              onClick={() => handleOpenFile(child.path, child.name)}
+              onClick={() => handleOpenFile(child.path)}
             >
               <h4>{child.name}</h4>
             </div>

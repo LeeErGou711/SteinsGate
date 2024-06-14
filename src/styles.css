@@ -8,39 +8,37 @@ body {
 body::before {
   content: "";
   position: absolute;
-  top: 0vh;  /* 元素顶部距离视口高度的10% */
-  left: 0vw; /* 元素左边距离视口宽度的10% */
+  top: 0vh;
+  left: 0vw;
   width: 100%;
   height: 150%;
   background: url("background.jpeg") no-repeat center center fixed;
-  background-size: auto auto; /* 拉伸背景图像的宽度到120% */
-  opacity: 0.45; /* 背景图片的半透明效果 */
+  background-size: auto auto;
+  opacity: 0.45;
   z-index: -2;
   pointer-events: none;
-  margin-top: +0px; /* 向上移动背景图像 50px */
+  margin-top: +0px;
   transform: translateY(-80px);
 }
 
 body::after {
   content: "";
   position: absolute;
-  top: 0vh;  /* 元素顶部距离视口高度的10% */
-  left: 0vw; /* 元素左边距离视口宽度的10% */
+  top: 0vh;
+  left: 0vw;
   width: 100%;
   height: 150%;
-  background: linear-gradient(to top, transparent, rgb(255, 255, 255) 20%), 
-              linear-gradient(to bottom, transparent, rgb(255, 255, 255) 20%), 
-              linear-gradient(to left, transparent, rgb(255, 255, 255) 20%), 
+  background: linear-gradient(to top, transparent, rgb(255, 255, 255) 20%),
+              linear-gradient(to bottom, transparent, rgb(255, 255, 255) 20%),
+              linear-gradient(to left, transparent, rgb(255, 255, 255) 20%),
               linear-gradient(to right, transparent, rgb(255, 255, 255) 20%);
-  background-size: auto auto; /* 拉伸背景图像的宽度到120% */
-  opacity: 0.3; /* 背景图片的半透明效果 */
+  background-size: auto auto;
+  opacity: 0.3;
   z-index: -1;
   pointer-events: none;
-  margin-top: +0px; /* 向上移动背景图像 50px */
+  margin-top: +0px;
   transform: translateY(-80px);
 }
-
-
 
 .App {
   text-align: center;
@@ -48,7 +46,7 @@ body::after {
 
 .App-header {
   padding: 20px;
-  color: rgba(255, 255, 255, 0.8); /* 半透明白色文本 */
+  color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   margin: 20px;
 }
@@ -104,7 +102,6 @@ body::after {
   margin: 10px 0;
   border: 1px solid rgba(0, 0, 0, 0.1); /* 半透明边框 */
   border-radius: 10px;
-  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
@@ -124,5 +121,31 @@ body::after {
   margin: 5px 0;
   font-size: 16px;
   font-weight: normal;
+}
+
+/* 新增的音乐播放器样式 */
+.music-player {
+  text-align: center;
+  margin: 20px;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
+
+audio {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
 }
 
