@@ -9,175 +9,283 @@
     "parent": null
   },
   {
-    "id": "小说/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
-    "name": "epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
-    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "id": "小说/N+十周年联动CH短篇",
+    "name": "N+十周年联动CH短篇",
+    "description": "Description for N+十周年联动CH短篇",
     "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "category": "folder",
+    "path": "小说/N+十周年联动CH短篇",
     "parent": "小说"
   },
   {
-    "id": "小说/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
-    "name": "epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
-    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2009】N+十周年联动CH短篇.epub",
+    "id": "小说/N+十周年联动CH短篇/【2009】N+十周年联动CH短篇.epub",
     "name": "【2009】N+十周年联动CH短篇.epub",
     "description": "Description for 【2009】N+十周年联动CH短篇.epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2009】N+十周年联动CH短篇.epub",
-    "parent": "小说"
+    "path": "小说/N+十周年联动CH短篇/【2009】N+十周年联动CH短篇.epub",
+    "parent": "小说/N+十周年联动CH短篇"
   },
   {
-    "id": "小说/【2010】STEINS;GATE 灾厄降临的假日.epub",
-    "name": "【2010】STEINS;GATE 灾厄降临的假日.epub",
-    "description": "Description for 【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "id": "小说/β小说3部曲",
+    "name": "β小说3部曲",
+    "description": "Description for β小说3部曲",
     "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "category": "folder",
+    "path": "小说/β小说3部曲",
     "parent": "小说"
   },
   {
-    "id": "小说/【2010】遥远的瓦尔哈拉.epub",
-    "name": "【2010】遥远的瓦尔哈拉.epub",
-    "description": "Description for 【2010】遥远的瓦尔哈拉.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2010】遥远的瓦尔哈拉.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
-    "name": "【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
-    "description": "Description for 【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2011】比翼連理的UnDarling【3卷合一】.epub",
-    "name": "【2011】比翼連理的UnDarling【3卷合一】.epub",
-    "description": "Description for 【2011】比翼連理的UnDarling【3卷合一】.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2011】比翼連理的UnDarling【3卷合一】.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
-    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
-    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
-    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
-    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
-    "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
-    "parent": "小说"
-  },
-  {
-    "id": "小说/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "id": "小说/β小说3部曲/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
     "name": "【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
     "description": "Description for 【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
-    "parent": "小说"
+    "path": "小说/β小说3部曲/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "parent": "小说/β小说3部曲"
   },
   {
-    "id": "小说/【2012】萌芽追想的友誼.epub",
-    "name": "【2012】萌芽追想的友誼.epub",
-    "description": "Description for 【2012】萌芽追想的友誼.epub",
+    "id": "小说/【官方剧场短篇】",
+    "name": "【官方剧场短篇】",
+    "description": "Description for 【官方剧场短篇】",
     "image": "/path/to/default/image.png",
-    "category": "file",
-    "path": "小说/【2012】萌芽追想的友誼.epub",
+    "category": "folder",
+    "path": "小说/【官方剧场短篇】",
     "parent": "小说"
   },
   {
-    "id": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "id": "小说/【官方剧场短篇】/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
     "name": "【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
     "description": "Description for 【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
-    "parent": "小说"
+    "path": "小说/【官方剧场短篇】/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "parent": "小说/【官方剧场短篇】"
   },
   {
-    "id": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "id": "小说/【官方剧场短篇】/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
     "name": "【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
     "description": "Description for 【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "path": "小说/【官方剧场短篇】/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "parent": "小说/【官方剧场短篇】"
+  },
+  {
+    "id": "小说/剧场版小说 负荷领域的即视感",
+    "name": "剧场版小说 负荷领域的即视感",
+    "description": "Description for 剧场版小说 负荷领域的即视感",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/剧场版小说 负荷领域的即视感",
     "parent": "小说"
   },
   {
-    "id": "小说/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "id": "小说/剧场版小说 负荷领域的即视感/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "name": "epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/剧场版小说 负荷领域的即视感/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "parent": "小说/剧场版小说 负荷领域的即视感"
+  },
+  {
+    "id": "小说/剧场版小说 负荷领域的即视感/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "name": "epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/剧场版小说 负荷领域的即视感/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "parent": "小说/剧场版小说 负荷领域的即视感"
+  },
+  {
+    "id": "小说/剧场版小说 负荷领域的即视感/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
     "name": "【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
     "description": "Description for 【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "path": "小说/剧场版小说 负荷领域的即视感/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "parent": "小说/剧场版小说 负荷领域的即视感"
+  },
+  {
+    "id": "小说/助手视点小说",
+    "name": "助手视点小说",
+    "description": "Description for 助手视点小说",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/助手视点小说",
     "parent": "小说"
   },
   {
-    "id": "小说/【2014】盒子里的明天.epub",
-    "name": "【2014】盒子里的明天.epub",
-    "description": "Description for 【2014】盒子里的明天.epub",
+    "id": "小说/助手视点小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "name": "【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "description": "Description for 【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2014】盒子里的明天.epub",
+    "path": "小说/助手视点小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "parent": "小说/助手视点小说"
+  },
+  {
+    "id": "小说/変移空間のオクテット",
+    "name": "変移空間のオクテット",
+    "description": "Description for 変移空間のオクテット",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/変移空間のオクテット",
     "parent": "小说"
   },
   {
-    "id": "小说/【2014】線形拘束的鑲嵌性.epub",
-    "name": "【2014】線形拘束的鑲嵌性.epub",
-    "description": "Description for 【2014】線形拘束的鑲嵌性.epub",
+    "id": "小说/変移空間のオクテット/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/【2014】線形拘束的鑲嵌性.epub",
+    "path": "小说/変移空間のオクテット/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "parent": "小说/変移空間のオクテット"
+  },
+  {
+    "id": "小说/変移空間のオクテット/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/変移空間のオクテット/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "parent": "小说/変移空間のオクテット"
+  },
+  {
+    "id": "小说/比翼連理的UnDarling",
+    "name": "比翼連理的UnDarling",
+    "description": "Description for 比翼連理的UnDarling",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/比翼連理的UnDarling",
     "parent": "小说"
   },
   {
-    "id": "小说/比翼連理的UnDarling(卷1).epub",
+    "id": "小说/比翼連理的UnDarling/【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "name": "【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "description": "Description for 【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/比翼連理的UnDarling/【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "parent": "小说/比翼連理的UnDarling"
+  },
+  {
+    "id": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷1).epub",
     "name": "比翼連理的UnDarling(卷1).epub",
     "description": "Description for 比翼連理的UnDarling(卷1).epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/比翼連理的UnDarling(卷1).epub",
-    "parent": "小说"
+    "path": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷1).epub",
+    "parent": "小说/比翼連理的UnDarling"
   },
   {
-    "id": "小说/比翼連理的UnDarling(卷2).epub",
+    "id": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷2).epub",
     "name": "比翼連理的UnDarling(卷2).epub",
     "description": "Description for 比翼連理的UnDarling(卷2).epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/比翼連理的UnDarling(卷2).epub",
-    "parent": "小说"
+    "path": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷2).epub",
+    "parent": "小说/比翼連理的UnDarling"
   },
   {
-    "id": "小说/比翼連理的UnDarling(卷3).epub",
+    "id": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷3).epub",
     "name": "比翼連理的UnDarling(卷3).epub",
     "description": "Description for 比翼連理的UnDarling(卷3).epub",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "小说/比翼連理的UnDarling(卷3).epub",
+    "path": "小说/比翼連理的UnDarling/比翼連理的UnDarling(卷3).epub",
+    "parent": "小说/比翼連理的UnDarling"
+  },
+  {
+    "id": "小说/灾厄降临的假日",
+    "name": "灾厄降临的假日",
+    "description": "Description for 灾厄降临的假日",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/灾厄降临的假日",
     "parent": "小说"
+  },
+  {
+    "id": "小说/灾厄降临的假日/【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "name": "【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "description": "Description for 【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/灾厄降临的假日/【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "parent": "小说/灾厄降临的假日"
+  },
+  {
+    "id": "小说/盒子里的明天",
+    "name": "盒子里的明天",
+    "description": "Description for 盒子里的明天",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/盒子里的明天",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/盒子里的明天/【2014】盒子里的明天.epub",
+    "name": "【2014】盒子里的明天.epub",
+    "description": "Description for 【2014】盒子里的明天.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/盒子里的明天/【2014】盒子里的明天.epub",
+    "parent": "小说/盒子里的明天"
+  },
+  {
+    "id": "小说/線形拘束的鑲嵌性",
+    "name": "線形拘束的鑲嵌性",
+    "description": "Description for 線形拘束的鑲嵌性",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/線形拘束的鑲嵌性",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/線形拘束的鑲嵌性/【2014】線形拘束的鑲嵌性.epub",
+    "name": "【2014】線形拘束的鑲嵌性.epub",
+    "description": "Description for 【2014】線形拘束的鑲嵌性.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/線形拘束的鑲嵌性/【2014】線形拘束的鑲嵌性.epub",
+    "parent": "小说/線形拘束的鑲嵌性"
+  },
+  {
+    "id": "小说/萌芽追想的友誼",
+    "name": "萌芽追想的友誼",
+    "description": "Description for 萌芽追想的友誼",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/萌芽追想的友誼",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/萌芽追想的友誼/【2012】萌芽追想的友誼.epub",
+    "name": "【2012】萌芽追想的友誼.epub",
+    "description": "Description for 【2012】萌芽追想的友誼.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/萌芽追想的友誼/【2012】萌芽追想的友誼.epub",
+    "parent": "小说/萌芽追想的友誼"
+  },
+  {
+    "id": "小说/遥远的瓦尔哈拉",
+    "name": "遥远的瓦尔哈拉",
+    "description": "Description for 遥远的瓦尔哈拉",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说/遥远的瓦尔哈拉",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/遥远的瓦尔哈拉/【2010】遥远的瓦尔哈拉.epub",
+    "name": "【2010】遥远的瓦尔哈拉.epub",
+    "description": "Description for 【2010】遥远的瓦尔哈拉.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/遥远的瓦尔哈拉/【2010】遥远的瓦尔哈拉.epub",
+    "parent": "小说/遥远的瓦尔哈拉"
   },
   {
     "id": "漫画",
