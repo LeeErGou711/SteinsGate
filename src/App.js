@@ -14,16 +14,23 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        setFilteredProducts(data.filter(product => product.category === "folder")); // 只初始化文件夹类别的产品
+        const topFolders = data.filter(product => product.category === "folder" && product.parent === "files");
+        setFilteredProducts(topFolders); // 只初始化files目录下的文件夹
+        // 将files目录下的文件夹设置为展开状态
+        const initialOpenedFolders = {};
+        topFolders.forEach(folder => {
+          initialOpenedFolders[folder.name] = true;
+        });
+        setOpenedFolders(initialOpenedFolders);
       })
       .catch((err) => console.error(err));
   }, []);
 
   useEffect(() => {
-    // 过滤产品列表，只显示文件夹
+    // 过滤产品列表，只显示files目录下的文件夹
     const lowercasedFilter = searchTerm.toLowerCase();
     const filtered = products.filter((product) => {
-      if (product.category === "folder") {
+      if (product.category === "folder" && product.parent === "files") {
         return product.name.toLowerCase().includes(lowercasedFilter);
       }
       return false;
