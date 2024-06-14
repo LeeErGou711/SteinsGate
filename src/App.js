@@ -13,11 +13,11 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        // 初始化文件夹展开状态，仅展开顶层文件夹
+        // 初始化文件夹展开状态，所有文件夹默认关闭
         const initialOpenedFolders = data
-          .filter(product => product.category === "folder" && !product.parent)
+          .filter(product => product.category === "folder")
           .reduce((acc, product) => {
-            acc[product.name] = true;
+            acc[product.name] = false;
             return acc;
           }, {});
         setOpenedFolders(initialOpenedFolders);
