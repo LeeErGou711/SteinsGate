@@ -1,29 +1,59 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MP3 播放器</title>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const filePath = urlParams.get('file');
-            const fileName = urlParams.get('name');
-            const fullPath = `https://raw.githubusercontent.com/LeeErGou711/SteinsGate/main/src/files/${filePath}`;
-
-            document.title = fileName;
-            document.getElementById("audio-title").innerText = fileName;
-            document.getElementById("audio-source").src = fullPath;
-        });
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        body {
+            font-family: "SimSun", "宋体", serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .music-player {
+            text-align: center;
+            margin: 20px;
+        }
+        .download-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        audio {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-
-<h1 id="audio-title">加载中...</h1>
-
-<audio controls>
-  <source id="audio-source" type="audio/mpeg">
-  您的浏览器不支持 audio 元素。
-</audio>
-
+    <div class="music-player">
+        <h2 id="fileName"></h2>
+        <audio controls id="audioPlayer">
+            Your browser does not support the audio element.
+        </audio>
+        <div>
+            <a href="#" id="downloadLink" class="download-button">下载</a>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const filePath = urlParams.get('filePath');
+            const fileName = urlParams.get('fileName');
+            
+            document.getElementById('fileName').textContent = fileName;
+            document.getElementById('audioPlayer').src = filePath;
+            document.getElementById('downloadLink').href = filePath;
+            document.getElementById('downloadLink').download = fileName;
+        }
+    </script>
 </body>
 </html>
