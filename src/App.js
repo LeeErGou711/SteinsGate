@@ -50,7 +50,12 @@ const App = () => {
   };
 
   const handleOpenFile = (filePath) => {
-    const fullPath = `https://github.com/LeeErGou711/SteinsGate/raw/main/src/files/${filePath}`;
+    const extension = filePath.split('.').pop();
+    let fullPath = `https://github.com/LeeErGou711/SteinsGate/raw/main/src/files/${filePath}`;
+    if (extension === 'epub') {
+      const rawPath = `https://raw.githubusercontent.com/LeeErGou711/SteinsGate/main/src/files/${filePath}`;
+      fullPath = `https://leeergou711.github.io/mess-reader/?file=${encodeURIComponent(rawPath)}`;
+    }
     window.open(fullPath, "_blank");
   };
 
