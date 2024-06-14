@@ -4,7 +4,6 @@ import "./styles.css";
 const App = () => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [searchCategory, setSearchCategory] = useState("folder");
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [openedFolders, setOpenedFolders] = useState({});
 
@@ -14,16 +13,24 @@ const App = () => {
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
-        setFilteredProducts(data.filter(product => product.category === "folder")); // 只初始化文件夹类别的产品
+        // 初始化文件夹展开状态，仅展开顶层文件夹
+        const initialOpenedFolders = data
+          .filter(product => product.category === "folder" && !product.parent)
+          .reduce((acc, product) => {
+            acc[product.name] = true;
+            return acc;
+          }, {});
+        setOpenedFolders(initialOpenedFolders);
+        setFilteredProducts(data.filter(product => product.category === "folder" && !product.parent)); // 只初始化顶层文件夹
       })
       .catch((err) => console.error(err));
   }, []);
 
   useEffect(() => {
-    // 过滤产品列表，只显示文件夹
+    // 过滤产品列表，只显示顶层文件夹
     const lowercasedFilter = searchTerm.toLowerCase();
     const filtered = products.filter((product) => {
-      if (product.category === "folder") {
+      if (product.category === "folder" && !product.parent) {
         return product.name.toLowerCase().includes(lowercasedFilter);
       }
       return false;
@@ -90,6 +97,31 @@ const App = () => {
                             onClick={() => handleOpenFile(child.path)}
                           >
                             <h4>{child.name}</h4>
+                          </div>
+                        )}
+                        {openedFolders[child.name] && child.category === "folder" && (
+                          <div className="folder-contents">
+                            {products
+                              .filter((subItem) => subItem.parent === child.name)
+                              .map((subChild) => (
+                                <div key={subChild.id} className="product-card child-card">
+                                  {subChild.category === "folder" ? (
+                                    <div
+                                      className="folder-name"
+                                      onClick={() => handleToggleFolder(subChild.name)}
+                                    >
+                                      <h4>{subChild.name}</h4>
+                                    </div>
+                                  ) : (
+                                    <div
+                                      className="file-name"
+                                      onClick={() => handleOpenFile(subChild.path)}
+                                    >
+                                      <h4>{subChild.name}</h4>
+                                    </div>
+                                  )}
+                                </div>
+                              ))}
                           </div>
                         )}
                       </div>
