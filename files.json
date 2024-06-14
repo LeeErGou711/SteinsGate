@@ -1,335 +1,524 @@
 [
   {
-    "id": "剧场版命运石之门负荷领域的既视感",
+    "id": "小说",
+    "name": "小说",
+    "description": "Description for 小说",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "小说",
+    "parent": null
+  },
+  {
+    "id": "小说/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "name": "epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/epub剧场版小说命运石之门 负荷领域的即视感-上.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "name": "epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "description": "Description for epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/epub剧场版小说命运石之门 负荷领域的即视感-下.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2009】N+十周年联动CH短篇.epub",
+    "name": "【2009】N+十周年联动CH短篇.epub",
+    "description": "Description for 【2009】N+十周年联动CH短篇.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2009】N+十周年联动CH短篇.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "name": "【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "description": "Description for 【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2010】STEINS;GATE 灾厄降临的假日.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2010】遥远的瓦尔哈拉.epub",
+    "name": "【2010】遥远的瓦尔哈拉.epub",
+    "description": "Description for 【2010】遥远的瓦尔哈拉.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2010】遥远的瓦尔哈拉.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "name": "【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "description": "Description for 【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2011】助手视点小说命运石之门 蝶翼的世界性变动率：Reverse、形而上的坏死：Reverse、境界面上的命运石之门：Rebirth.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "name": "【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "description": "Description for 【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2011】比翼連理的UnDarling【3卷合一】.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（上）.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "name": "【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "description": "Description for 【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2012-2013】Steins;Gate 変移空間のオクテット（下）.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "name": "【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "description": "Description for 【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2012-2013】β小说3部曲《闭时曲线的碑文》《永劫回归的潘多拉》《无限远点的牵牛星》.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2012】萌芽追想的友誼.epub",
+    "name": "【2012】萌芽追想的友誼.epub",
+    "description": "Description for 【2012】萌芽追想的友誼.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2012】萌芽追想的友誼.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "name": "【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "description": "Description for 【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的宽恕][简].epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "name": "【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "description": "Description for 【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2013】【官方剧场短篇】[林直孝][STEINS;GATE 承认共鸣的馈赠][简].epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "name": "【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "description": "Description for 【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2013】命运石之门 负荷领域的即视感【2卷全】.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2014】盒子里的明天.epub",
+    "name": "【2014】盒子里的明天.epub",
+    "description": "Description for 【2014】盒子里的明天.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2014】盒子里的明天.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/【2014】線形拘束的鑲嵌性.epub",
+    "name": "【2014】線形拘束的鑲嵌性.epub",
+    "description": "Description for 【2014】線形拘束的鑲嵌性.epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/【2014】線形拘束的鑲嵌性.epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/比翼連理的UnDarling(卷1).epub",
+    "name": "比翼連理的UnDarling(卷1).epub",
+    "description": "Description for 比翼連理的UnDarling(卷1).epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/比翼連理的UnDarling(卷1).epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/比翼連理的UnDarling(卷2).epub",
+    "name": "比翼連理的UnDarling(卷2).epub",
+    "description": "Description for 比翼連理的UnDarling(卷2).epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/比翼連理的UnDarling(卷2).epub",
+    "parent": "小说"
+  },
+  {
+    "id": "小说/比翼連理的UnDarling(卷3).epub",
+    "name": "比翼連理的UnDarling(卷3).epub",
+    "description": "Description for 比翼連理的UnDarling(卷3).epub",
+    "image": "/path/to/default/image.png",
+    "category": "file",
+    "path": "小说/比翼連理的UnDarling(卷3).epub",
+    "parent": "小说"
+  },
+  {
+    "id": "漫画",
+    "name": "漫画",
+    "description": "Description for 漫画",
+    "image": "/path/to/default/image.png",
+    "category": "folder",
+    "path": "漫画",
+    "parent": null
+  },
+  {
+    "id": "漫画/剧场版命运石之门负荷领域的既视感",
     "name": "剧场版命运石之门负荷领域的既视感",
     "description": "Description for 剧场版命运石之门负荷领域的既视感",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "剧场版命运石之门负荷领域的既视感",
-    "parent": null
+    "path": "漫画/剧场版命运石之门负荷领域的既视感",
+    "parent": "漫画"
   },
   {
-    "id": "剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
+    "id": "漫画/剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
     "name": "[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
     "description": "Description for [Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
-    "parent": "剧场版命运石之门负荷领域的既视感"
+    "path": "漫画/剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷01.kepub.pdf",
+    "parent": "漫画/剧场版命运石之门负荷领域的既视感"
   },
   {
-    "id": "剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
+    "id": "漫画/剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
     "name": "[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
     "description": "Description for [Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
-    "parent": "剧场版命运石之门负荷领域的既视感"
+    "path": "漫画/剧场版命运石之门负荷领域的既视感/[Sacgn.com][劇場版命運石之門負荷領域的既視感]卷02.kepub.pdf",
+    "parent": "漫画/剧场版命运石之门负荷领域的既视感"
   },
   {
-    "id": "命运石之门-亡环的逆谋",
+    "id": "漫画/命运石之门-亡环的逆谋",
     "name": "命运石之门-亡环的逆谋",
     "description": "Description for 命运石之门-亡环的逆谋",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门-亡环的逆谋",
-    "parent": null
+    "path": "漫画/命运石之门-亡环的逆谋",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "id": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
-    "parent": "命运石之门-亡环的逆谋"
+    "path": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷01.kepub.pdf",
+    "parent": "漫画/命运石之门-亡环的逆谋"
   },
   {
-    "id": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "id": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
-    "parent": "命运石之门-亡环的逆谋"
+    "path": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷02.kepub.pdf",
+    "parent": "漫画/命运石之门-亡环的逆谋"
   },
   {
-    "id": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "id": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
-    "parent": "命运石之门-亡环的逆谋"
+    "path": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]卷03.kepub.pdf",
+    "parent": "漫画/命运石之门-亡环的逆谋"
   },
   {
-    "id": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "id": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
-    "parent": "命运石之门-亡环的逆谋"
+    "path": "漫画/命运石之门-亡环的逆谋/[Sacgn.com][命運石之門-亡環的逆謀]第03卷特典.kepub.pdf",
+    "parent": "漫画/命运石之门-亡环的逆谋"
   },
   {
-    "id": "命运石之门-史上最强的轻度狂热[停更]",
+    "id": "漫画/命运石之门-史上最强的轻度狂热[停更]",
     "name": "命运石之门-史上最强的轻度狂热[停更]",
     "description": "Description for 命运石之门-史上最强的轻度狂热[停更]",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门-史上最强的轻度狂热[停更]",
-    "parent": null
+    "path": "漫画/命运石之门-史上最强的轻度狂热[停更]",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "id": "漫画/命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
-    "parent": "命运石之门-史上最强的轻度狂热[停更]"
+    "path": "漫画/命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷01.kepub.pdf",
+    "parent": "漫画/命运石之门-史上最强的轻度狂热[停更]"
   },
   {
-    "id": "命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "id": "漫画/命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
     "name": "[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
-    "parent": "命运石之门-史上最强的轻度狂热[停更]"
+    "path": "漫画/命运石之门-史上最强的轻度狂热[停更]/[Sacgn.com][命運石之門-史上最強的輕度狂熱]卷02.kepub.pdf",
+    "parent": "漫画/命运石之门-史上最强的轻度狂热[停更]"
   },
   {
-    "id": "命运石之门DROPS",
+    "id": "漫画/命运石之门DROPS",
     "name": "命运石之门DROPS",
     "description": "Description for 命运石之门DROPS",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门DROPS",
-    "parent": null
+    "path": "漫画/命运石之门DROPS",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门DROPS/[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "id": "漫画/命运石之门DROPS/[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
     "name": "[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门DROPS/[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
-    "parent": "命运石之门DROPS"
+    "path": "漫画/命运石之门DROPS/[Sacgn.com][命運石之門DROPS]全一卷.kepub.pdf",
+    "parent": "漫画/命运石之门DROPS"
   },
   {
-    "id": "命运石之门[停更]",
+    "id": "漫画/命运石之门[停更]",
     "name": "命运石之门[停更]",
     "description": "Description for 命运石之门[停更]",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门[停更]",
-    "parent": null
+    "path": "漫画/命运石之门[停更]",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门[停更]/[Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "id": "漫画/命运石之门[停更]/[Sacgn.com][命運石之門]卷01.kepub.pdf",
     "name": "[Sacgn.com][命運石之門]卷01.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門]卷01.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门[停更]/[Sacgn.com][命運石之門]卷01.kepub.pdf",
-    "parent": "命运石之门[停更]"
+    "path": "漫画/命运石之门[停更]/[Sacgn.com][命運石之門]卷01.kepub.pdf",
+    "parent": "漫画/命运石之门[停更]"
   },
   {
-    "id": "命运石之门：世界线变动率x.091015％",
+    "id": "漫画/命运石之门：世界线变动率x.091015％",
     "name": "命运石之门：世界线变动率x.091015％",
     "description": "Description for 命运石之门：世界线变动率x.091015％",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：世界线变动率x.091015％",
-    "parent": null
+    "path": "漫画/命运石之门：世界线变动率x.091015％",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "id": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
-    "parent": "命运石之门：世界线变动率x.091015％"
+    "path": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷01.kepub.pdf",
+    "parent": "漫画/命运石之门：世界线变动率x.091015％"
   },
   {
-    "id": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "id": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
-    "parent": "命运石之门：世界线变动率x.091015％"
+    "path": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷02.kepub.pdf",
+    "parent": "漫画/命运石之门：世界线变动率x.091015％"
   },
   {
-    "id": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "id": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
-    "parent": "命运石之门：世界线变动率x.091015％"
+    "path": "漫画/命运石之门：世界线变动率x.091015％/[Sacgn.com][命運石之門：世界線變動率x.091015％]卷03.kepub.pdf",
+    "parent": "漫画/命运石之门：世界线变动率x.091015％"
   },
   {
-    "id": "命运石之门：变移空间的八重奏",
+    "id": "漫画/命运石之门：变移空间的八重奏",
     "name": "命运石之门：变移空间的八重奏",
     "description": "Description for 命运石之门：变移空间的八重奏",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：变移空间的八重奏",
-    "parent": null
+    "path": "漫画/命运石之门：变移空间的八重奏",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：变移空间的八重奏/[Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
+    "id": "漫画/命运石之门：变移空间的八重奏/[Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：变移空间的八重奏/[Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
-    "parent": "命运石之门：变移空间的八重奏"
+    "path": "漫画/命运石之门：变移空间的八重奏/[Sacgn.com][命運石之門：變移空間的八重奏]話01-08.kepub.pdf",
+    "parent": "漫画/命运石之门：变移空间的八重奏"
   },
   {
-    "id": "命运石之门：哀心迷图的巴别塔",
+    "id": "漫画/命运石之门：哀心迷图的巴别塔",
     "name": "命运石之门：哀心迷图的巴别塔",
     "description": "Description for 命运石之门：哀心迷图的巴别塔",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：哀心迷图的巴别塔",
-    "parent": null
+    "path": "漫画/命运石之门：哀心迷图的巴别塔",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
+    "id": "漫画/命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
-    "parent": "命运石之门：哀心迷图的巴别塔"
+    "path": "漫画/命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話00-09.kepub.pdf",
+    "parent": "漫画/命运石之门：哀心迷图的巴别塔"
   },
   {
-    "id": "命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
+    "id": "漫画/命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
-    "parent": "命运石之门：哀心迷图的巴别塔"
+    "path": "漫画/命运石之门：哀心迷图的巴别塔/[Sacgn.com][命運石之門：哀心迷圖的巴別塔]話10-19.kepub.pdf",
+    "parent": "漫画/命运石之门：哀心迷图的巴别塔"
   },
   {
-    "id": "命运石之门：恩仇的布朗运动",
+    "id": "漫画/命运石之门：恩仇的布朗运动",
     "name": "命运石之门：恩仇的布朗运动",
     "description": "Description for 命运石之门：恩仇的布朗运动",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：恩仇的布朗运动",
-    "parent": null
+    "path": "漫画/命运石之门：恩仇的布朗运动",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：恩仇的布朗运动/[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
+    "id": "漫画/命运石之门：恩仇的布朗运动/[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：恩仇的布朗运动/[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
-    "parent": "命运石之门：恩仇的布朗运动"
+    "path": "漫画/命运石之门：恩仇的布朗运动/[Sacgn.com][命運石之門：恩仇的布朗運動]第01卷番外.kepub.pdf",
+    "parent": "漫画/命运石之门：恩仇的布朗运动"
   },
   {
-    "id": "命运石之门：无限远点的弧光灯",
+    "id": "漫画/命运石之门：无限远点的弧光灯",
     "name": "命运石之门：无限远点的弧光灯",
     "description": "Description for 命运石之门：无限远点的弧光灯",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：无限远点的弧光灯",
-    "parent": null
+    "path": "漫画/命运石之门：无限远点的弧光灯",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：无限远点的弧光灯/[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "id": "漫画/命运石之门：无限远点的弧光灯/[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：无限远点的弧光灯/[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
-    "parent": "命运石之门：无限远点的弧光灯"
+    "path": "漫画/命运石之门：无限远点的弧光灯/[Sacgn.com][命運石之門：無限遠點的弧光燈]全一冊.kepub.pdf",
+    "parent": "漫画/命运石之门：无限远点的弧光灯"
   },
   {
-    "id": "命运石之门：星尘的二连音",
+    "id": "漫画/命运石之门：星尘的二连音",
     "name": "命运石之门：星尘的二连音",
     "description": "Description for 命运石之门：星尘的二连音",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：星尘的二连音",
-    "parent": null
+    "path": "漫画/命运石之门：星尘的二连音",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：星尘的二连音/[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "id": "漫画/命运石之门：星尘的二连音/[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：星尘的二连音/[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
-    "parent": "命运石之门：星尘的二连音"
+    "path": "漫画/命运石之门：星尘的二连音/[Sacgn.com][命運石之門：星塵的二連音]話001-007.kepub.pdf",
+    "parent": "漫画/命运石之门：星尘的二连音"
   },
   {
-    "id": "命运石之门：比翼恋理的爱人",
+    "id": "漫画/命运石之门：比翼恋理的爱人",
     "name": "命运石之门：比翼恋理的爱人",
     "description": "Description for 命运石之门：比翼恋理的爱人",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：比翼恋理的爱人",
-    "parent": null
+    "path": "漫画/命运石之门：比翼恋理的爱人",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：比翼恋理的爱人/[Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
+    "id": "漫画/命运石之门：比翼恋理的爱人/[Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：比翼恋理的爱人/[Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
-    "parent": "命运石之门：比翼恋理的爱人"
+    "path": "漫画/命运石之门：比翼恋理的爱人/[Sacgn.com][命運石之門：比翼戀理的愛人]話01-06.kepub.pdf",
+    "parent": "漫画/命运石之门：比翼恋理的爱人"
   },
   {
-    "id": "命运石之门：闭时曲线的碑文",
+    "id": "漫画/命运石之门：闭时曲线的碑文",
     "name": "命运石之门：闭时曲线的碑文",
     "description": "Description for 命运石之门：闭时曲线的碑文",
     "image": "/path/to/default/image.png",
     "category": "folder",
-    "path": "命运石之门：闭时曲线的碑文",
-    "parent": null
+    "path": "漫画/命运石之门：闭时曲线的碑文",
+    "parent": "漫画"
   },
   {
-    "id": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
+    "id": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
-    "parent": "命运石之门：闭时曲线的碑文"
+    "path": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話001-005.kepub.pdf",
+    "parent": "漫画/命运石之门：闭时曲线的碑文"
   },
   {
-    "id": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
+    "id": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
-    "parent": "命运石之门：闭时曲线的碑文"
+    "path": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話006-010.kepub.pdf",
+    "parent": "漫画/命运石之门：闭时曲线的碑文"
   },
   {
-    "id": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
+    "id": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
-    "parent": "命运石之门：闭时曲线的碑文"
+    "path": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話011-015.kepub.pdf",
+    "parent": "漫画/命运石之门：闭时曲线的碑文"
   },
   {
-    "id": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
+    "id": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
     "name": "[Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
     "description": "Description for [Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
     "image": "/path/to/default/image.png",
     "category": "file",
-    "path": "命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
-    "parent": "命运石之门：闭时曲线的碑文"
+    "path": "漫画/命运石之门：闭时曲线的碑文/[Sacgn.com][命運石之門：閉時曲線的碑文]話015-020.kepub.pdf",
+    "parent": "漫画/命运石之门：闭时曲线的碑文"
   }
 ]
