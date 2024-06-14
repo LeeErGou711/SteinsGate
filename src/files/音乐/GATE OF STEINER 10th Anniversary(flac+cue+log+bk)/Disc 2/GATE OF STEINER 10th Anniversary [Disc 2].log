@@ -1,0 +1,533 @@
+X Lossless Decoder version 20191004 (152.0)
+
+XLD extraction logfile from 2020-05-09 21:08:38 -0400
+
+Various Artists / GATE OF STEINER 10th Anniversary [Disc 2]
+
+Used drive : PIONEER BD-RW   BDR-XD07 (revision 1.02)
+Media type : Pressed CD
+
+Ripper mode             : XLD Secure Ripper
+Disable audio cache     : OK for the drive with a cache less than 1375KiB
+Make use of C2 pointers : NO
+Read offset correction  : 667
+Max retry count         : 20
+Gap status              : Analyzed, Appended (except HTOA)
+
+TOC of the extracted CD
+     Track |   Start  |  Length  | Start sector | End sector 
+    ---------------------------------------------------------
+        1  | 00:00:00 | 03:49:28 |         0    |    17202   
+        2  | 03:49:28 | 04:15:45 |     17203    |    36372   
+        3  | 08:04:73 | 02:12:12 |     36373    |    46284   
+        4  | 10:17:10 | 01:41:09 |     46285    |    53868   
+        5  | 11:58:19 | 01:53:30 |     53869    |    62373   
+        6  | 13:51:49 | 04:41:15 |     62374    |    83463   
+        7  | 18:32:64 | 06:08:04 |     83464    |   111067   
+        8  | 24:40:68 | 02:14:47 |    111068    |   121164   
+        9  | 26:55:40 | 01:50:22 |    121165    |   129436   
+       10  | 28:45:62 | 02:40:40 |    129437    |   141476   
+       11  | 31:26:27 | 01:52:27 |    141477    |   149903   
+       12  | 33:18:54 | 04:55:26 |    149904    |   172054   
+       13  | 38:14:05 | 04:52:26 |    172055    |   193980   
+       14  | 43:06:31 | 02:54:59 |    193981    |   207089   
+       15  | 46:01:15 | 02:57:60 |    207090    |   220424   
+       16  | 48:59:00 | 03:05:10 |    220425    |   234309   
+       17  | 52:04:10 | 04:13:08 |    234310    |   253292   
+       18  | 56:17:18 | 05:37:54 |    253293    |   278621   
+       19  | 61:54:72 | 01:29:01 |    278622    |   285297   
+       20  | 63:23:73 | 01:50:41 |    285298    |   293588   
+       21  | 65:14:39 | 00:58:21 |    293589    |   297959   
+       22  | 66:12:60 | 01:29:01 |    297960    |   304635   
+       23  | 67:41:61 | 02:47:30 |    304636    |   317190   
+       24  | 70:29:16 | 01:09:63 |    317191    |   322428   
+       25  | 71:39:04 | 02:13:03 |    322429    |   332406   
+       26  | 73:52:07 | 04:19:35 |    332407    |   351866   
+
+AccurateRip Summary
+    Disc not found in AccurateRip DB.
+
+All Tracks
+    Album gain               : -2.71 dB
+    Peak                     : 0.999969
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 1
+        Damaged sector count                 : 0
+
+Track 01
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/01 GATE OF STEINER (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -0.91 dB
+    Peak                     : 0.877441
+    CRC32 hash (test run)    : 8D41E484
+    CRC32 hash               : 8D41E484
+    CRC32 hash (skip zero)   : 5E3407F2
+    AccurateRip v1 signature : 4F34C904
+    AccurateRip v2 signature : 15CFEAF8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 02
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/02 GATE OF STEINER -piano- (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -1.66 dB
+    Peak                     : 0.884644
+    CRC32 hash (test run)    : BB42EFCC
+    CRC32 hash               : BB42EFCC
+    CRC32 hash (skip zero)   : E46887AE
+    AccurateRip v1 signature : 9F071DD7
+    AccurateRip v2 signature : 899BBBF7
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 03
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/03 Believe me (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 4.08 dB
+    Peak                     : 0.650604
+    CRC32 hash (test run)    : D9335BDE
+    CRC32 hash               : D9335BDE
+    CRC32 hash (skip zero)   : 2294FCF7
+    AccurateRip v1 signature : 28D76F60
+    AccurateRip v2 signature : 07BA35DD
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 04
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/04 One of selection -Gate of steiner- (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 1.23 dB
+    Peak                     : 0.800049
+    CRC32 hash (test run)    : EF05D59A
+    CRC32 hash               : EF05D59A
+    CRC32 hash (skip zero)   : E505BCC8
+    AccurateRip v1 signature : 2AF6F51A
+    AccurateRip v2 signature : 254C7C22
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 05
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/05 溢れる想い -GATE OF STEINER- (劇場版).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 3.36 dB
+    Peak                     : 0.501129
+    CRC32 hash (test run)    : 80628C08
+    CRC32 hash               : 80628C08
+    CRC32 hash (skip zero)   : C297968B
+    AccurateRip v1 signature : B8FDBBF5
+    AccurateRip v2 signature : 2F46735B
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 1
+        Damaged sector count                 : 0
+
+Track 06
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/06 B-Messenger (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -4.02 dB
+    Peak                     : 0.992340
+    CRC32 hash (test run)    : 2F56BE71
+    CRC32 hash               : 2F56BE71
+    CRC32 hash (skip zero)   : BE2263DC
+    AccurateRip v1 signature : 979C2DAE
+    AccurateRip v2 signature : 649B435F
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 07
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/07 B-Messenger -piano- (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 8.09 dB
+    Peak                     : 0.478394
+    CRC32 hash (test run)    : 83C3C6DB
+    CRC32 hash               : 83C3C6DB
+    CRC32 hash (skip zero)   : C1B1F62A
+    AccurateRip v1 signature : 3B98FB24
+    AccurateRip v2 signature : 4BDF4DF8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 08
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/08 いつの日か -Believe me- (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 2.96 dB
+    Peak                     : 0.496521
+    CRC32 hash (test run)    : 267AB972
+    CRC32 hash               : 267AB972
+    CRC32 hash (skip zero)   : DE50C822
+    AccurateRip v1 signature : 06CE2AF0
+    AccurateRip v2 signature : 1CB69E79
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 09
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/09 0からの使者 (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 12.23 dB
+    Peak                     : 0.280640
+    CRC32 hash (test run)    : FEA5A8BD
+    CRC32 hash               : FEA5A8BD
+    CRC32 hash (skip zero)   : CACB187F
+    AccurateRip v1 signature : 86DDF21D
+    AccurateRip v2 signature : 283F110B
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 10
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/10 収束 (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -1.19 dB
+    Peak                     : 0.910553
+    CRC32 hash (test run)    : E108E369
+    CRC32 hash               : E108E369
+    CRC32 hash (skip zero)   : C18EDCC3
+    AccurateRip v1 signature : 5A09D676
+    AccurateRip v2 signature : 4CB849F8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 11
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/11 B-Messenger -strings quartet- (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 0.81 dB
+    Peak                     : 0.557251
+    CRC32 hash (test run)    : 17003AB2
+    CRC32 hash               : 17003AB2
+    CRC32 hash (skip zero)   : 1266C285
+    AccurateRip v1 signature : D1DA3636
+    AccurateRip v2 signature : FAECD638
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 12
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/12 覚醒 're-awake' (アニメ).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -4.62 dB
+    Peak                     : 0.997620
+    CRC32 hash (test run)    : 29E7A33C
+    CRC32 hash               : 29E7A33C
+    CRC32 hash (skip zero)   : AEBE7709
+    AccurateRip v1 signature : 69BFCA4C
+    AccurateRip v2 signature : F78F1C78
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 13
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/13 GATE OF STEINER (symphonic ver.).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -2.66 dB
+    Peak                     : 0.991516
+    CRC32 hash (test run)    : 223B9D7B
+    CRC32 hash               : 223B9D7B
+    CRC32 hash (skip zero)   : 95AEE534
+    AccurateRip v1 signature : 20289486
+    AccurateRip v2 signature : E6F56476
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 14
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/14 Cycle (symphonic ver.).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 0.85 dB
+    Peak                     : 0.769257
+    CRC32 hash (test run)    : 4028F753
+    CRC32 hash               : 4028F753
+    CRC32 hash (skip zero)   : 5151496B
+    AccurateRip v1 signature : 26022303
+    AccurateRip v2 signature : E6056232
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 15
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/15 hesitative consideration (symphonic ver.).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -1.40 dB
+    Peak                     : 0.867676
+    CRC32 hash (test run)    : 049B532E
+    CRC32 hash               : 049B532E
+    CRC32 hash (skip zero)   : 30943980
+    AccurateRip v1 signature : CDA21C93
+    AccurateRip v2 signature : 8DCD4793
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 16
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/16 GATE OF PHENOGRAM (symphonic ver.).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -0.77 dB
+    Peak                     : 0.827301
+    CRC32 hash (test run)    : 4D0D4DCD
+    CRC32 hash               : 4D0D4DCD
+    CRC32 hash (skip zero)   : 114A1688
+    AccurateRip v1 signature : 5F4ACCFC
+    AccurateRip v2 signature : 926372FA
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 17
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/17 GATE OF STEINER.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -3.73 dB
+    Peak                     : 0.993774
+    CRC32 hash (test run)    : 9D8F89DE
+    CRC32 hash               : 9D8F89DE
+    CRC32 hash (skip zero)   : 5EAB3040
+    AccurateRip v1 signature : 2C66498A
+    AccurateRip v2 signature : 10C638C2
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 18
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/18 GATE OF STEINER (acoustic ver.).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -5.61 dB
+    Peak                     : 0.893707
+    CRC32 hash (test run)    : B40A206B
+    CRC32 hash               : B40A206B
+    CRC32 hash (skip zero)   : EA59038C
+    AccurateRip v1 signature : E6A721D5
+    AccurateRip v2 signature : 98898E87
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 19
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/19 GATE OF STEINER (OPN).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -3.19 dB
+    Peak                     : 0.736847
+    CRC32 hash (test run)    : E1C5109B
+    CRC32 hash               : E1C5109B
+    CRC32 hash (skip zero)   : 33B8CF54
+    AccurateRip v1 signature : 7273B913
+    AccurateRip v2 signature : DF5A17B8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 20
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/20 Solitude (OPN).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : 3.57 dB
+    Peak                     : 0.385132
+    CRC32 hash (test run)    : 842E62F2
+    CRC32 hash               : 842E62F2
+    CRC32 hash (skip zero)   : DD5F3E17
+    AccurateRip v1 signature : F7301D83
+    AccurateRip v2 signature : 43CF468C
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 21
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/21 GATE OF STEINER -Ringing- (OPN).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -3.47 dB
+    Peak                     : 0.658081
+    CRC32 hash (test run)    : 293A0D0C
+    CRC32 hash               : 293A0D0C
+    CRC32 hash (skip zero)   : 6794709D
+    AccurateRip v1 signature : DD1D89A3
+    AccurateRip v2 signature : A85D3C18
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 22
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/22 Gate of steiner 2nd Edition ver1. 02 (OPN).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -2.07 dB
+    Peak                     : 0.635651
+    CRC32 hash (test run)    : 21571C9A
+    CRC32 hash               : 21571C9A
+    CRC32 hash (skip zero)   : D5F42060
+    AccurateRip v1 signature : D420AEBE
+    AccurateRip v2 signature : 8E3FC39F
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 23
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/23 GATE OF STEINER (ファミコレADV).flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -0.60 dB
+    Peak                     : 0.874237
+    CRC32 hash (test run)    : E18708D3
+    CRC32 hash               : E18708D3
+    CRC32 hash (skip zero)   : 903E93B1
+    AccurateRip v1 signature : 474927D1
+    AccurateRip v2 signature : 878C15CA
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 24
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/24 GATE OF STEINER 2A03.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -4.78 dB
+    Peak                     : 0.879944
+    CRC32 hash (test run)    : 1EAD4639
+    CRC32 hash               : 1EAD4639
+    CRC32 hash (skip zero)   : 55CD8D44
+    AccurateRip v1 signature : 074DBD00
+    AccurateRip v2 signature : 9E8B3FD8
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 25
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/25 GATE OF STEINER PRO-68k.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -5.42 dB
+    Peak                     : 0.900421
+    CRC32 hash (test run)    : A8562B80
+    CRC32 hash               : A8562B80
+    CRC32 hash (skip zero)   : 401FF375
+    AccurateRip v1 signature : 04258469
+    AccurateRip v2 signature : BE8D190D
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+Track 26
+    Filename : /Users/RIPS/Compilations - GATE OF STEINER 10th Anniversary [Disc 2] (2020) [FLAC]/26 GATE OF STEINER 10th anniversary.flac
+    Pre-gap length : 00:02:00
+
+    Track gain               : -4.04 dB
+    Peak                     : 0.999969
+    CRC32 hash (test run)    : 7F954F99
+    CRC32 hash               : 7F954F99
+    CRC32 hash (skip zero)   : 37F779B9
+    AccurateRip v1 signature : EA74D12F
+    AccurateRip v2 signature : F0F13479
+        ->Track not present in AccurateRip database.
+    Statistics
+        Read error                           : 0
+        Jitter error (maybe fixed)           : 0
+        Retry sector count                   : 0
+        Damaged sector count                 : 0
+
+No errors occurred
+
+End of status report
+
+-----BEGIN XLD SIGNATURE-----
+eYgktUjchkHUfB6cRlNwMaJrXPu7_RrHQwhAaM_IagDeaMYZMj8Dg7YG9AWV.BvYYAmZzVjEXu.3M9YBVkpK1z8tA1iU5bqGJ8Xpo_K
+-----END XLD SIGNATURE-----
