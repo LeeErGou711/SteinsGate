@@ -17,7 +17,7 @@ const App = () => {
         const initialOpenedFolders = data
           .filter(product => product.category === "folder")
           .reduce((acc, product) => {
-            acc[product.name] = false;
+            acc[product.path] = false;
             return acc;
           }, {});
         setOpenedFolders(initialOpenedFolders);
@@ -42,16 +42,47 @@ const App = () => {
     setSearchTerm(event.target.value);
   };
 
-  const handleToggleFolder = (folderName) => {
+  const handleToggleFolder = (folderPath) => {
     setOpenedFolders((prevState) => ({
       ...prevState,
-      [folderName]: !prevState[folderName],
+      [folderPath]: !prevState[folderPath],
     }));
   };
 
   const handleOpenFile = (filePath) => {
     const fullPath = `https://github.com/LeeErGou711/SteinsGate/raw/main/src/files/${filePath}`;
     window.open(fullPath, "_blank");
+  };
+
+  const renderFolderContents = (parentPath) => {
+    return products
+      .filter((item) => item.parent === parentPath)
+      .map((child) => (
+        <div key={child.id} className="product-card child-card">
+          {child.category === "folder" ? (
+            <div>
+              <div
+                className="folder-name"
+                onClick={() => handleToggleFolder(child.path)}
+              >
+                <h4>{child.name}</h4>
+              </div>
+              {openedFolders[child.path] && (
+                <div className="folder-contents">
+                  {renderFolderContents(child.path)}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div
+              className="file-name"
+              onClick={() => handleOpenFile(child.path)}
+            >
+              <h4>{child.name}</h4>
+            </div>
+          )}
+        </div>
+      ));
   };
 
   return (
@@ -74,58 +105,13 @@ const App = () => {
             <div key={product.id} className="product-card">
               <div
                 className="folder-name"
-                onClick={() => handleToggleFolder(product.name)}
+                onClick={() => handleToggleFolder(product.path)}
               >
                 <h3>{product.name}</h3>
               </div>
-              {openedFolders[product.name] && (
+              {openedFolders[product.path] && (
                 <div className="folder-contents">
-                  {products
-                    .filter((item) => item.parent === product.name)
-                    .map((child) => (
-                      <div key={child.id} className="product-card child-card">
-                        {child.category === "folder" ? (
-                          <div
-                            className="folder-name"
-                            onClick={() => handleToggleFolder(child.name)}
-                          >
-                            <h4>{child.name}</h4>
-                          </div>
-                        ) : (
-                          <div
-                            className="file-name"
-                            onClick={() => handleOpenFile(child.path)}
-                          >
-                            <h4>{child.name}</h4>
-                          </div>
-                        )}
-                        {openedFolders[child.name] && child.category === "folder" && (
-                          <div className="folder-contents">
-                            {products
-                              .filter((subItem) => subItem.parent === child.name)
-                              .map((subChild) => (
-                                <div key={subChild.id} className="product-card child-card">
-                                  {subChild.category === "folder" ? (
-                                    <div
-                                      className="folder-name"
-                                      onClick={() => handleToggleFolder(subChild.name)}
-                                    >
-                                      <h4>{subChild.name}</h4>
-                                    </div>
-                                  ) : (
-                                    <div
-                                      className="file-name"
-                                      onClick={() => handleOpenFile(subChild.path)}
-                                    >
-                                      <h4>{subChild.name}</h4>
-                                    </div>
-                                  )}
-                                </div>
-                              ))}
-                          </div>
-                        )}
-                      </div>
-                    ))}
+                  {renderFolderContents(product.path)}
                 </div>
               )}
             </div>
